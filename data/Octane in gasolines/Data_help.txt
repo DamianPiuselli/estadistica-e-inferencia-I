@@ -1,0 +1,22 @@
+Determination of octane in gasolines from NIR data
+--------------------------------------------------------------------------------------
+File name				Content
+--------------------------------------------------------------------------------------
+		Samples selected at random
+roncal.txt				Calibration ron values
+rontest.txt				Test ron values
+Xcal.txt				Calibration spectra in matrix form
+Xtest.txt				Test spectra in matrix form
+
+---------------------------------------------------------------------------------------
+Spectral regions: 200 500 
+Data type: Matrix
+Only with mean-centering, calibration samples 24 and 25 are outliers,
+discard them, use 3 factors (CV) and get 0.25% of REP on new samples.
+
+--------------------------------------------------------------------------------------
+FOR MORE DETAILS PLEASE REFER TO:
+A new family of genetic algorithms for wavelength interval selection in multivariate 
+analytical spectroscopy, Goicoechea, HC, Olivieri, AC, 
+J. Chemometrics 17, 338-345 (2003).
+--------------------------------------------------------------------------------------
